@@ -397,6 +397,8 @@ char LCDReadByte(char rs) {
 #endif
 
 void LCDInitPort(void) {
+    ANSELD = 0x00;
+    ANSELE = 0x00;
     LCD_LAT = LCD_LAT & OFF_MASK;
     LCD_TRIS = LCD_TRIS & OFF_MASK;
     LCD_RW = 0;
