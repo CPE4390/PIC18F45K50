@@ -32,7 +32,7 @@
 
 //#define LCD_POLLING
 
-#define _XTAL_FREQ  32000000L
+#define _XTAL_FREQ  48000000L
 
 #define LCD_ROWS    2
 #define LCD_CHARS   16
