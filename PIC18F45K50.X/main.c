@@ -15,6 +15,7 @@ void main(void) {
     lprintf(0, "PIC18F45K50");
     while (1) {
         lprintf(1, "%d", count);
+        ++count;
         __delay_ms(1000);
     }
 }

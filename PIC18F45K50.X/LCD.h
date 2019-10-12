@@ -11,11 +11,11 @@
 #define LCD_PORT    PORTD
 #define LCD_LAT     LATD
 #define LCD_TRIS    TRISD
-#define LCD_RS      PORTEbits.RE0
+#define LCD_RS      LATEbits.LATE0
 #define RS_TRIS     TRISEbits.TRISE0
-#define LCD_RW      PORTEbits.RE1
+#define LCD_RW      LATEbits.LATE1
 #define RW_TRIS     TRISEbits.TRISE1
-#define LCD_E       PORTEbits.RE2
+#define LCD_E       LATEbits.LATE2
 #define E_TRIS      TRISEbits.TRISE2
 #define LCD_DATA_WIDTH  8   //Set to 8 or 4
 #endif
